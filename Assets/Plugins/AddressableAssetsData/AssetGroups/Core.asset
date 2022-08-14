@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Core
+  m_EditorClassIdentifier: 
+  m_GroupName: Core
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8c75c7275a14d49a0afc225341bf68ce
+  m_SerializeEntries:
+  - m_GUID: fd5b5966794f0458c988370f70d35f3c
+    m_Address: SceneTrasition
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22b0dc1b8efcc4a538bf84aca3b650d3
+    m_Address: EventSystem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a68854dbf958407ab33a828511f188e
+    m_Address: SceneTrasitionAnimator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef9729a60a539403ea96dddbeb9b0a46
+    m_Address: SceneTrasitionFadeOut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b47a7d3a9ebf34a09abbee609290dcb5
+    m_Address: SceneTrasitionFadeIn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 22a7ccabf79f940d5b58034c95e01f2e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8dabbc5a299ce47cfaa2b55749992a2b, type: 2}
+    - {fileID: 11400000, guid: f7c98e962838e44d5be63511d0f8a4eb, type: 2}

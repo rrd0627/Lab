@@ -20,7 +20,7 @@ public partial class MovableSystem : SystemBase
             // but allows this job to run in parallel with other jobs
             // that want to read Rotation component data.
             // For example,
-            // translation.Value += move.Speed * move.Direction * deltaTime;
+            translation.Value += move.Speed * move.Direction * deltaTime;
             rotation.Value = math.mul(rotation.Value.value,quaternion.RotateY(move.Speed * deltaTime));
         }).Schedule();
     }

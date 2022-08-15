@@ -34,18 +34,18 @@ MonoBehaviour:
     - Cinemachine
     - ACTk.Runtime
     - Assembly-CSharp
-    - Sirenix.OdinInspector.CompatibilityLayer
     - Nementic.SelectionUtility.Runtime
     - Lofelt.NiceVibrations
     - ACTk.Examples.Genuine.Runtime
+    - Sirenix.OdinInspector.CompatibilityLayer
     - CodeStage.Maintainer.Editor
-    - Sirenix.OdinInspector.CompatibilityLayer.Editor
     - ACTk.Editor
     - PPv2URPConverters
     - Nementic.SelectionUtility.Editor
+    - Sirenix.OdinInspector.CompatibilityLayer.Editor
+    - Sirenix.OdinInspector.Modules.UnityMathematics
     - ACTk.Examples.Genuine.Editor
     - Lofelt.NiceVibrations.Editor
-    - Sirenix.OdinInspector.Modules.UnityMathematics
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

@@ -9,14 +9,14 @@ public partial class PlayerSystem : SystemBase
 {
     protected override void OnUpdate()
     {
-        Entities.WithAll<Player>().        
+        Entities.WithAll<Player>().
         ForEach((ref Movable move) =>
         {
             float x = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
 
-            move.Direction =  new float3(x,0,y);
-            
+            move.Direction = new float3(x, 0, y);
+
 
         }).Run();
     }
